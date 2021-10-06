@@ -16,7 +16,7 @@ namespace Dominio.Tests
         public void TestQueFalla()
         {
             var valor = 5;
-            // Assert.AreEqual(4, valor);
+            Assert.AreEqual(4, valor);
         }
 
         [Test]
